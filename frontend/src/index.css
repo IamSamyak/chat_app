@@ -1,0 +1,49 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  color: white;
+  overflow-y: hidden;
+}
+.singleUserBox{
+  margin: 0;
+  height: 50px;
+  width: 100%;
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+}
+
+.black-background{
+  background-color:'#010100';
+  border:'2px solid red'
+}
+
+.here{
+  text-decoration: underline;
+  color: white;
+}
+
+.here:active, .here:visited, .here:focus {
+  text-decoration:none;
+  color: white;
+}
+
+.carousel-container{
+  height: 10vh;
+  width: 80%; /* Adjust the container width as needed */
+  margin: 0 auto;
+  margin-top: 2vh;
+  margin-left: 1vw;
+}
+
+.carousel-item {
+  width: 20%; /* Display 3 images at a time */
+}
+
+.SingleUser{
+  cursor: pointer;
+}
+
+.App{
+  height: 10vh;
+}

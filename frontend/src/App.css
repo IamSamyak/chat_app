@@ -1,0 +1,10 @@
+.MuiInput-root {
+  border-bottom: 1px solid white !important;
+  color: white !important;
+  height: 7vh;
+  font-size: '19px' !important;
+}
+
+.MuiInput-root:hover {
+  border-bottom: 1px solid white !important;
+}
